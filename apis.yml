@@ -1,7 +1,11 @@
 aid: voya-financial
-url: https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.voya-financial.com
+description: >-
+  Voya Financial is a leading retirement, investment, and employee benefits company
+  in the United States, serving individuals and institutional clients.
