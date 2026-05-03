@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "voya": "https://www.voya.com/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "FinancialOrganization": "https://schema.org/FinancialService",
+    "InvestmentFund": "https://schema.org/InvestmentOrFinancing",
+    "MonetaryAmount": "https://schema.org/MonetaryAmount",
+
+    "voya:planType": {"@type": "xsd:string"},
+    "voya:deferralRate": {"@type": "xsd:decimal"},
+    "voya:vestedBalance": {"@type": "xsd:decimal"},
+    "voya:employerMatch": {"@type": "xsd:decimal"},
+    "voya:participantId": {"@type": "xsd:string"},
+    "voya:planId": {"@type": "xsd:string"},
+
+    "Corporation": "https://schema.org/Corporation",
+    "tickerSymbol": "https://schema.org/tickerSymbol",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "url": "https://schema.org/url"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.voya.com/",
+      "@type": ["Corporation", "FinancialOrganization"],
+      "name": "Voya Financial",
+      "description": "Leading health, wealth, and investment company specializing in retirement plans, employee benefits, and investment management.",
+      "tickerSymbol": "VOYA",
+      "voya:exchange": "NYSE",
+      "url": "https://www.voya.com/",
+      "voya:focus": ["Retirement Plans", "Employee Benefits", "Investment Management", "Health Savings Accounts"]
+    }
+  ]
+}

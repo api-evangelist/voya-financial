@@ -1,0 +1,91 @@
+vocabulary:
+  name: Voya Financial Vocabulary
+  description: >-
+    Key terms, concepts, and taxonomy for Voya Financial, a Fortune 500
+    company specializing in retirement plans, employee benefits, health savings
+    accounts, and investment management.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Benefits
+    - Finance
+    - Investment Management
+    - Retirement
+
+  domains:
+    - name: Retirement Plans
+      description: Employer-sponsored and individual retirement account concepts
+      terms:
+        - term: "401(k)"
+          definition: Employer-sponsored defined contribution retirement plan with pre-tax or Roth after-tax employee contributions and optional employer matching.
+        - term: "403(b)"
+          definition: Tax-advantaged retirement plan for employees of public schools, non-profits, and certain tax-exempt organizations.
+        - term: "457(b)"
+          definition: Non-qualified, tax-advantaged deferred compensation retirement plan available to governmental and non-governmental entities.
+        - term: IRA
+          definition: Individual Retirement Account. Tax-advantaged personal savings account for retirement.
+        - term: Roth IRA
+          definition: IRA with after-tax contributions where qualified withdrawals are tax-free.
+        - term: Defined Contribution Plan
+          definition: Retirement plan where contributions are defined but the final benefit depends on investment performance.
+        - term: Defined Benefit Plan
+          definition: Pension plan that promises a specified monthly benefit at retirement based on salary history and years of service.
+        - term: Vesting
+          definition: The process by which an employee earns the right to employer contributions in a retirement plan over time.
+        - term: Vested Balance
+          definition: The portion of a retirement account balance that belongs unconditionally to the employee.
+        - term: Deferral Rate
+          definition: The percentage of an employee's salary contributed to a retirement plan each pay period.
+        - term: Employer Match
+          definition: Additional contributions made by an employer that match a percentage of the employee's own contributions.
+        - term: Contribution Limit
+          definition: IRS-mandated maximum annual contribution amounts for tax-advantaged retirement accounts.
+
+    - name: Health and Benefits
+      description: Employee benefits and health savings concepts
+      terms:
+        - term: HSA
+          definition: Health Savings Account. Tax-advantaged medical savings account for individuals enrolled in high-deductible health plans.
+        - term: FSA
+          definition: Flexible Spending Account. Employer-offered tax-advantaged account for medical or dependent care expenses.
+        - term: HRA
+          definition: Health Reimbursement Arrangement. Employer-funded plan that reimburses employees for medical expenses.
+        - term: HDHP
+          definition: High-Deductible Health Plan. Health insurance plan with higher deductibles eligible for HSA pairing.
+        - term: Voluntary Benefits
+          definition: Supplemental benefits employees can elect to purchase through payroll deduction (e.g., life, disability, accident insurance).
+        - term: Group Benefits
+          definition: Insurance and benefit programs offered to a group of employees through an employer.
+
+    - name: Investment Management
+      description: Investment and asset management concepts
+      terms:
+        - term: Asset Allocation
+          definition: Distribution of investments across asset classes (stocks, bonds, cash) based on risk tolerance and time horizon.
+        - term: Target Date Fund
+          definition: A fund that automatically adjusts its asset allocation to become more conservative as the target retirement date approaches.
+        - term: Diversification
+          definition: Spreading investments across multiple assets or asset classes to reduce risk.
+        - term: Rebalancing
+          definition: Adjusting portfolio allocations back to target weights after market movements change the mix.
+        - term: Expense Ratio
+          definition: Annual fee charged by an investment fund as a percentage of assets under management.
+        - term: AUM
+          definition: Assets Under Management. Total market value of assets a firm manages on behalf of clients.
+
+    - name: Financial Wellness
+      description: Financial planning and wellness concepts
+      terms:
+        - term: myVoyage
+          definition: Voya Financial's personalized digital financial wellness platform for retirement plan participants.
+        - term: Financial Wellness
+          definition: A measure of an individual's financial health encompassing savings, debt management, and protection against risks.
+        - term: Rollover
+          definition: Transfer of retirement savings from one qualified plan to another without incurring taxes.
+        - term: Required Minimum Distribution
+          definition: IRS-mandated minimum annual withdrawals from retirement accounts starting at age 73.
+        - term: Beneficiary
+          definition: Person(s) designated to receive retirement account assets upon the account holder's death.
+        - term: Open Banking
+          definition: Financial data sharing framework allowing consumers to share account data with third-party providers via APIs (e.g., Plaid connectivity to Voya accounts).

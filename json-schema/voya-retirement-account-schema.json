@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/voya-financial/json-schema/voya-retirement-account-schema.json",
+  "title": "Voya Retirement Account",
+  "description": "Schema representing a Voya Financial retirement plan account.",
+  "type": "object",
+  "properties": {
+    "accountId": {
+      "type": "string",
+      "description": "Unique identifier for the retirement account."
+    },
+    "planId": {
+      "type": "string",
+      "description": "Identifier for the employer-sponsored retirement plan."
+    },
+    "planName": {
+      "type": "string",
+      "description": "Name of the retirement plan (e.g., 401(k), 403(b), 457)."
+    },
+    "planType": {
+      "type": "string",
+      "enum": ["401k", "403b", "457", "IRA", "Roth IRA", "HSA", "pension"],
+      "description": "Type of retirement or savings plan."
+    },
+    "participantId": {
+      "type": "string",
+      "description": "Unique identifier for the plan participant."
+    },
+    "accountBalance": {
+      "type": "number",
+      "description": "Current total account balance in USD."
+    },
+    "vestedBalance": {
+      "type": "number",
+      "description": "Vested portion of account balance in USD."
+    },
+    "contributionYTD": {
+      "type": "number",
+      "description": "Year-to-date employee contributions in USD."
+    },
+    "employerMatchYTD": {
+      "type": "number",
+      "description": "Year-to-date employer matching contributions in USD."
+    },
+    "deferralRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Employee contribution deferral rate as percentage of salary."
+    },
+    "investments": {
+      "type": "array",
+      "description": "Investment allocations within the account.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fundName": {"type": "string"},
+          "ticker": {"type": "string"},
+          "allocation": {"type": "number", "description": "Percentage allocation."},
+          "balance": {"type": "number"},
+          "shares": {"type": "number"}
+        }
+      }
+    },
+    "enrollmentDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the participant enrolled in the plan."
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of the last account update."
+    }
+  }
+}
