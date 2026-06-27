@@ -43,7 +43,7 @@ common:
     description: Stock price, financials, and news on Yahoo Finance.
   - url: https://www.plaid.com/
     name: Plaid Open Banking Aggregator
-    type: Integration
+    type: Integrations
     description: >-
       Voya retirement accounts are accessible via Plaid for open banking data
       aggregation including account balances and transaction history.
