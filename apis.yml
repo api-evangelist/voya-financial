@@ -25,6 +25,8 @@ created: '2025-02-08'
 modified: '2026-05-03'
 position: Consumer
 common:
+  - type: DomainSecurity
+    url: security/voya-financial-domain-security.yml
   - url: https://www.voya.com/
     name: Voya Financial Website
     type: Website
