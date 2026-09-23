@@ -1,7 +1,9 @@
 ---
 title: Voya celebrates success of 24/7 chatbot and emerging ...
 url: https://www.theglobeandmail.com/investing/markets/stocks/VOYA/pressreleases/12061687/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Voya Financial" press release artificial intelligence'
 position: 4
 source: serpapi-google
